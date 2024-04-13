@@ -1,0 +1,21 @@
+.homeTitle {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.homeTitle .name, .homeTitle .role {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.homeTitle .name {
+    font-weight: 700;
+}
+
+.homeTitle .line {
+    width: 200px;
+    height: 1px;
+    margin: auto 10px;
+    background: rgb(255, 255, 255);
+}
